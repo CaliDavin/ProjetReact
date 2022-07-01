@@ -17,19 +17,19 @@ body {
     background-color:  rosybrown;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
 .card {
     border: 2px solid black;
-    margin-left: 10px;
+    margin-left: 5rem;
     text-align: center;
     padding: 1% 2%;
     width: 25%;
     border-radius: 10px;
     margin-bottom: 2%;
-}
-
-.test {
-    display: flex;
-
 }
 
 .card img {

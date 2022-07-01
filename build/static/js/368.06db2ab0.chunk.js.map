@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/368.06db2ab0.chunk.js","mappings":"kIAQA,UARgB,WACZ,OACI,+BACI","sources":["pages/contact.js"],"sourcesContent":["const Contact = () => {\n    return (\n        <>\n            <h1>Contact</h1>\n        </>\n    )\n}\n\nexport default Contact\n"],"names":[],"sourceRoot":""}

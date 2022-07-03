@@ -18,9 +18,6 @@ import NotFound from './NotFound'
 // Pages
 /* A lazy loading of the components. */
 const Main = lazy(() => import('../pages/main'))
-const Contact = lazy(() => import('../pages/contact'))
-const Cv = lazy(() => import('../pages/cv'))
-const Projets = lazy(() => import('../pages/projets'))
 
 /**
  * It returns a Router component that contains a LayoutNav component that contains a Switch component
@@ -33,9 +30,6 @@ const Routeur = () => (
             <LayoutNav>
                 <Switch>
                     <Route exact path="/" component={Main} />
-                    <Route exact path="/contact" component={Contact} />
-                    <Route exact path="/cv" component={Cv} />
-                    <Route exact path="/projets" component={Projets} />
                     <Route path="*" component={NotFound} />
                 </Switch>
             </LayoutNav>
